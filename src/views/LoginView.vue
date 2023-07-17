@@ -32,7 +32,7 @@
 
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .container {
     height: 800px;
     width: 100%;
@@ -52,7 +52,7 @@
 
 form {
     background-color: #39373747;
-    width: 350px;
+    width: 80%;
     height: 250px;
     padding: 20px;
     color: #fff;
@@ -60,12 +60,12 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
     border-radius: 15px;
 }
 
 .loginForm input {
-    width: 300px;
+    width: 100%;
 }
 
 .btn {
@@ -75,7 +75,7 @@ form {
     margin: 6px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 50%;
     border-radius: 15px;
     text-decoration: none;
 }
@@ -86,6 +86,15 @@ form {
 form .forget_password {
     color: #D1603D;
     font-size: 15px;
+}
+
+@media (min-width: 768px) {
+
+    .container {
+        form {
+            width: 30%;
+        }
+    }
 }
 </style>
 
