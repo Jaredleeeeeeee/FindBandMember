@@ -13,7 +13,7 @@
     </div>
   </main>
 </template>
-<style scoped>
+<style lang="scss" scoped>
   .container {
     background-color: #000;
     display: flex;
@@ -58,6 +58,20 @@
     font-size: 25px;
 
   }
+
+  @media (max-width: 768px) {
+    .container {
+      flex-wrap: wrap;
+      height: 1000px;
+      .img {
+        width: 100%;
+      }
+
+      .content {
+        width: 100%;
+      }
+    }
+  } 
 
 
 </style>

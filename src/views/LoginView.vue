@@ -41,6 +41,7 @@
     background-size: cover;
     background-blend-mode: multiply;
     background-position: center center;
+    padding-top: 100px;
 }
 
 .container form h3 {
@@ -56,7 +57,6 @@ form {
     padding: 20px;
     color: #fff;
     margin: auto;
-    margin-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -65,7 +65,7 @@ form {
 }
 
 .loginForm input {
-    width: 250px;
+    width: 300px;
 }
 
 .btn {
@@ -88,4 +88,5 @@ form .forget_password {
     font-size: 15px;
 }
 </style>
+
 
