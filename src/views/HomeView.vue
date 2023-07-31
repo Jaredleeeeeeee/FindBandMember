@@ -18,7 +18,7 @@
     background-color: #000;
     display: flex;
     width: 100%;
-    height: 800px;
+    height: 960px;
   }
 
   .img {
